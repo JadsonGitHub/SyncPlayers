@@ -43,14 +43,14 @@
 
 > ### [Detalhamento das Ações](./DiagramaDeAtividade/AtividadesDescricao.md)
 
-| Nome                                                                            | Obs                               |
-| ----------------------------------------------------------------------------    | --------------------------------- |
-| [Buscar Jogadores](./DiagramaDeAtividade/DiagramaDeATVbuscarJogador.png)        | Filtro, Sugestões e Notificações  |
-| [Editar Perfil](./DiagramaDeAtividade/DiagramaDeATVeditarPerfil.png)            | Preferências                      |
-| [Acessar](./DiagramaDeAtividade/DiagramaDeATVloginCadastro.png)                 | Cadastro, Login                   |
-| [Enviar Mensagem](./DiagramaDeAtividade/DiagramaDeATVenviarMensagem.png)        | Chat                              |
-| [Enviar Notificação](./DiagramaDeAtividade/DiagramaDeATVenviarNotificação.png)  | Notificação                       |
-| [Vizualizar Perfil](./DiagramaDeAtividade/DiagramaDeATVvisualizarPerfil.png)    | Vizualização, Bloqueio, Avaliação |
+| Nome                                                                         | Obs                               |
+| ---------------------------------------------------------------------------- | --------------------------------- |
+| [Buscar Jogadores](./DiagramaDeAtividade/buscarjogadores.png)                | Filtro, Sugestões e Notificações  |
+| [Editar Perfil](./DiagramaDeAtividade/editarperfil.png)                      | Preferências                      |
+| [Acessar](./DiagramaDeAtividade/acesso.png)                                  | Cadastro, Login                   |
+| [Enviar Mensagem](./DiagramaDeAtividade/enviarmensagem.png)                  | Chat                              |
+| [Enviar Notificação](./DiagramaDeAtividade/enviarnotificacao.png)            | Notificação                       |
+| [Vizualizar Perfil](./DiagramaDeAtividade/DiagramaDeATVvisualizarPerfil.png) | Vizualização, Bloqueio, Avaliação |
 
 <br>
 
@@ -103,3 +103,27 @@
 | [Vizualizar Perfil](./DiagramaDeEstados/Visualizar%20Perfil.png)    | Vizualização, Funções                                |
 
 <br>
+
+## 🔹 [DIAGRAMA DE SEQUENCIA](./DiagramaDeSequencia/readme.md)
+
+### • [Avaliar Jogador](./DiagramaDeSequencia/avaliarjogador.jpg)
+## ![DIAGRAMA DE SEQUENCIA](./DiagramaDeSequencia/avaliarjogador.jpg)  
+### • [Bloquear Jogador](./DiagramaDeSequencia/bloquearjogador.jpg)
+## ![DIAGRAMA DE SEQUENCIA](./DiagramaDeSequencia/bloquearjogador.jpg)  
+### • [Buscar Jogadores](./DiagramaDeSequencia/buscarjogadores.jpg)
+## ![DIAGRAMA DE SEQUENCIA](./DiagramaDeSequencia/buscarjogadores.jpg)  
+### • [Cadastrar Horários](./DiagramaDeSequencia/cadastrohorarios.jpg)
+## ![DIAGRAMA DE SEQUENCIA](./DiagramaDeSequencia/cadastrohorarios.jpg)  
+
+<br>
+
+## 🔹 [DIAGRAMA DE COMPONENTES](./DiagramaDeComponente/readme.md)
+
+## ![DIAGRAMA DE COMPONENTES](./DiagramaDeComponente/componentes.jpg)  
+
+| Componentes            | Drescrição                   |
+| ---------------------- | ---------------------------- |
+| FrontEnd               | Interface Usuário Aplicação  |
+| BackEnd                | Máquina Lógica               |
+| Serviço Externo        | Consumo de APIs              |
+| Banco de Dados         | Armazenamento                |
